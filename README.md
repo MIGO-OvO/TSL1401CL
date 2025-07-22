@@ -1,5 +1,5 @@
-# Spectrometer Pro  
-# 光谱仪专业版
+# TSL1401CL data acquisition program
+# TSL1401CL数据采集程序
 
 ## 项目描述 / Project Description  
 这是一个基于TSL1401CL传感器的上下位机程序架构，由下位机(Arduino)和上位机(Python GUI)组成。下位机负责控制TSL1401线性传感器采集光数据，上位机通过串口接收数据并进行实时可视化分析。  
@@ -27,8 +27,8 @@ This is an upper and lower computer program architecture based on the TSL1401CL 
 ---
 
 ## 硬件要求 / Hardware Requirements  
-- Arduino开发板（UNO/Nano等）  
-  Arduino board (UNO/Nano, etc.)
+- Arduino开发板（UNO/Nano/MEGA等）  
+  Arduino board (UNO/Nano/MEGA, etc.)
 - TSL1401线性传感器模块  
   TSL1401 linear sensor module
 - USB数据线  
